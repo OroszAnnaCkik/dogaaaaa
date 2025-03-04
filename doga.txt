@@ -4,3 +4,68 @@ A harmadik
 B negyedik
 hiba
 A harmadikk
+Horváth Viktor B
+Orosz Anna A
+
+git bash
+A:git init
+A:git remote add origin https://github.com/OroszAnnaCkik/Doga.git
+A:A első
+A:git add .
+A:git commit -m "1"
+A:git push origin master
+
+B:git init
+B:git remote add origin https://github.com/OroszAnnaCkik/Doga.git
+B:git fetch
+B:git pull origin master
+B:B második
+B:git add .
+B:git commit -m "2"
+B:git push origin master
+
+A:git fetch
+A:git pull origin master
+A:git branch F
+A:git checkout F
+A:A harmadik
+A:git add .
+A:git commit -m "3"
+A:git push origin F
+
+B:git fetch
+B:git pull origin F
+B:git branch
+B:B negyedik
+B:git add .
+B:git commit -m "4"
+B:git push origin master
+
+B:B ötödik
+B:git add .
+B:git commit -m "5"
+B:git checkout origin/F
+B:git push origin origin/F
+
+A:git fetch
+A:git checkout master
+A:git pull origin F
+A:A hatodik
+A:A:git add .
+A:git commit -m "6"
+A:git push origin master
+
+B:git fetch
+B:git branch
+B:git checkout master
+B:git pull origin master
+B:B hetedik
+B:git add .
+B:git commit -m "7"
+B:git push origin master
+
+A:git checkout masterF
+A:jegyzet
+A:git add .
+A:git commit -m "8"
+A:git push origin masterF
